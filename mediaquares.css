@@ -1,0 +1,70 @@
+@media (width <= 600px) { /*Celulares*/
+    .header logo {
+        font-size: 15px;
+        margin: 0;
+        padding: 10px;
+    }
+    .grid-layout {
+        width: 100%;
+    }
+    .menu {
+        width: 100%;
+        font-size: 10px;
+    }
+    .container-main-content{
+        width: 100%;
+        margin: 0;
+    }
+    .header {
+        width: 100%;
+    }
+    .header img{
+        width: 100%;
+        margin: 0;
+    }
+    .header h2,h3{
+        font-size: 40px;
+        margin: auto;
+    }
+    .header h3{
+        margin-left: 50px;
+    }
+    .article-container {
+        width: 95%;
+        grid-column: 1 / 3;
+    }
+    .asidebar {
+        width: 100%;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .article-text{
+        width: 100%;
+        margin: 20px;
+    }
+    .article-text h2{
+        font-size: 20px;
+    }
+    .box-text p{
+        width: 50%;
+        font-size: 10px;
+    }
+    .box-text img{
+        width: 40%;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+@media (601px <= width <= 1199px) { /*Tablets*/
+
+    
+}
+
+@media (1200px <= width <= 1366px) { /*Laptops*/
+   
+}
+@media (width >= 1367px) { /*Pantallas grandes*/
+   
+}
